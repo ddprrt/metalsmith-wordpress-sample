@@ -10,7 +10,7 @@ const wordpress = (url) => (files, smith, done) => {
     'Access-Control-Expose-Headers': 'X-WP-Total, X-WP-TotalPages'
   })
     .then(res => {
-      const noPages = res.headers.get('X-WP-TotalPages') || 4;
+      const noPages = res.headers.get('X-WP-TotalPages') || 1;
       const pagesToFetch = new Array(noPages - 1)
         .fill(0)
         .map((el, id) => fetch(`${url}&page=${id+2}`));
