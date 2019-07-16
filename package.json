@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "handlebars": ">=4.1",
+    "handlebars": ">=4.0.14",
     "isomorphic-fetch": "^2.2.1",
     "metalsmith": "^2.3.0",
     "metalsmith-layouts": "^1.8.1",
