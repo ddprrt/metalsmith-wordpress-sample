@@ -15,6 +15,7 @@
     "metalsmith-layouts": "^1.8.1",
     "node-fetch": "^1.7.3",
     "js-yaml": ">=3.13.1",
-    "minimist": ">=1.2.2"
+    "minimist": ">=1.2.3",
+    "kind-of": ">=6.0.3"
   }
 }
